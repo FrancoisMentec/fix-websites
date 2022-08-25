@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Fix Websites",
+  "version": "0.1",
+  "description": "A web extension to fix websites like no portrait support.",
+  "icons": {
+    "48": "img/icon-48.png"
+  },
+  "action": {
+    "default_icon": {
+      "48": "img/icon-48.png"
+    },
+    "default_title": "Fix Websites"
+  },
+  "content_scripts": [
+  {
+    "matches": ["https://www.diablowiki.net/*"],
+    "css": ["css/diablowiki.css"]
+  }]
+}
