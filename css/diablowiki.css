@@ -1,3 +1,4 @@
 #column-content {
     width: auto !important;
+    max-width: 1100px;
 }
